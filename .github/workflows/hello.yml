@@ -6,6 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 你好，GitHub Actions 跑起来了"
-
+      - run: echo "今天是 $(date)"
+      - run: echo "Runner 系统是 ${{ runner.os}}"
 
 
